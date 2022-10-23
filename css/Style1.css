@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    font-family: 'Tahoma', 'Segoe UI', Verdana, sans-serif;
+}
+
+.Form{
+    Width: 580px;
+    margin: Auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+input, label, select, legend{
+    width: 100%;
+    margin: 10px 10;
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 10px 6px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 25;
+    border-bottom: none;  
+}
+
+.input_CheckBox{
+    border-bottom: navy;
+    border: 50px;
+}
+
+#Electronique, #Meubles, #Exterieur, #Outils, #Vehicules{
+    margin: .10rem 10;  
+}
+
+.bi{
+    width: 80%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin: 30px 10px 0px 10px;
+}
+
+option{
+    color: #000;
+}

@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(188, 213, 235);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    height: auto;
+    width: 700px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 50px 10px 10px 50px;
+    margin: 50px 15px 15px 50px;
+    
+}
+
+form h1{
+    font-size: 25px;
+}
+
+form .formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+form .formulaire .groupe{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .formulaire .gauche .groupe input, select{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid rgb(155, 155, 157);
+    outline-color: rgb(10, 90, 238);
+    border-radius: 3px;
+}
+
+form .formulaire .gauche .groupe i{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: rgb(10, 90, 238);
+}
+
+form .formulaire .droite{
+    margin-left: 40px;
+}
+
+form .formulaire .droite .groupe{
+    height: 40%;
+}
+
+form .formulaire .droite .groupe textarea{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(223, 234, 243);
+    border: 2px solid rgb(10, 90, 238);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+}
+
+form .formulaire .droite .groupe fieldset{
+    background-color: rgb(223, 234, 243);
+    border: 2px solid rgb(10, 90, 238);
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+form .bas_formulaire input{
+    margin-top:  5px;
+    background-color: rgb(10, 90, 238);
+    color: rgb(223, 234, 243);
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .bas_formulaire input:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 952px){
+    form .formulaire .droite{
+        margin-left: 50px;
+    }
+}
